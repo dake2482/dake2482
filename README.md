@@ -18,7 +18,7 @@
 
 - 🧠 十几年编程老手，如今的主要「同事」是 Codex、ZCode 和一堆自己写的 AI Skills
 - 🔭 正在探索：**小团队 + Agentic Workflow** 的极限生产力 —— 用 Agent 干投研、写短剧、做内容
-- 🛠️ 造过：财报排雷引擎、中文短剧编剧流水线、公众号写作流水线、AI 产业链监控、双模型编排插件……
+- 🛠️ 造过：微信聊天记录检索工具（chatlog_with_sns）、财报排雷引擎、中文短剧编剧流水线、公众号写作流水线、AI 产业链监控、双模型编排插件……
 - 💬 问我什么都有得聊：AI Skills / MCP / 量化投研 / 短剧创作 / macOS & iOS 小工具
 - ⚡ 座右铭：能写成 Skill 的工作流，绝不手动做第二遍
 
@@ -44,12 +44,12 @@
 
 | 项目 | 简介 |
 | --- | --- |
+| [chatlog_with_sns](https://github.com/dake2482/chatlog_with_sns) | 基于 chatlog 演进的微信工具：补齐微信 4.x 聊天记录 / 朋友圈 / 收藏本地检索，支持 MCP 接入 |
 | [caibao-pailei-v2-public](https://github.com/dake2482/caibao-pailei-v2-public) | 财报排雷 Skill v2：唐门六步排雷法 + 47 条疑点规则库（A 股 / 港股 / 美股） |
+| [hermes-skill-shovel](https://github.com/dake2482/hermes-skill-shovel) | 「铲子」趋势突破量化 Skill：EMA 均线系统 + 箱体突破 + 动量矩阵 + ATR 动态风控 |
 | [humanizer-zh](https://github.com/dake2482/humanizer-zh) | 中文去 AI 味工具：29 种 AI 写作模式检测与改写策略 |
 | [tokenmeter](https://github.com/dake2482/tokenmeter) | 自部署 AI Agent token 用量统计与 Web 看板 |
 | [short-drama-writer](https://github.com/dake2482/short-drama-writer) | 中文短剧编剧与审稿工具：原著分析 → 故事开发 → 剧本写作 → 七维评分 |
-| [pinedrama-workbench](https://github.com/dake2482/pinedrama-workbench) | PineDrama 漫剧工作台：本地浏览、缓存播放、下载、中文源与 AI 字幕 |
-| [gzh-writing-pipeline](https://github.com/dake2482/gzh-writing-pipeline) | 公众号写作流水线：写作 / 标题 / 去 AI 味 / 封面 / 配图 / 发布 6-skill 组合 |
 
 ### 📋 项目全景
 
@@ -75,7 +75,13 @@
 | --- | --- |
 | [short-drama-skills](https://github.com/dake2482/short-drama-skills) | 中文短剧与漫剧创作技能库 + 七维审稿体系 |
 | [short-drama-downloader](https://github.com/dake2482/short-drama-downloader) | 短剧整季批量下载：区间下载 / 断点续传 / 封面保存 |
+| [pinedrama-workbench](https://github.com/dake2482/pinedrama-workbench) | PineDrama 漫剧工作台：本地浏览、缓存播放、下载、中文源与 AI 字幕 |
+| [gzh-writing-pipeline](https://github.com/dake2482/gzh-writing-pipeline) | 公众号写作流水线：写作 / 标题 / 去 AI 味 / 封面 / 配图 / 发布 6-skill 组合 |
+| [liuxiaopai-rewriter](https://github.com/dake2482/liuxiaopai-rewriter) | 把 Markdown 改写成刘小排风格结构的 Skill |
+| [shengcai-skill](https://github.com/dake2482/shengcai-skill) | 把 Markdown 草稿改写为生财风格精华帖的 Skill |
 | [youtube-transcript](https://github.com/dake2482/youtube-transcript) | YouTube 字幕下载 Skill：InnerTree API + 反爬绕过 |
+| [zsxq-scraper](https://github.com/dake2482/zsxq-scraper) | 知识星球内容抓取工具 |
+| [dedao-scraper](https://github.com/dake2482/dedao-scraper) | 得到内容抓取工具 |
 | [xiaoyuzhou-transcript](https://github.com/dake2482/xiaoyuzhou-transcript) | 小宇宙播客转写工具 |
 
 </details>
@@ -87,6 +93,12 @@
 | --- | --- |
 | [market-regime-engine](https://github.com/dake2482/market-regime-engine) | 可审计的美股市场状态（Regime）检测引擎 |
 | [us-stock-checklist](https://github.com/dake2482/us-stock-checklist) | 有据可依的美股研究检查清单 Skill |
+| [stock-quant-analysis](https://github.com/dake2482/stock-quant-analysis) | 美股量化选股：EMA / MACD / KDJ + 量价 + 形态 + 背离检测，自动生成 HTML 报告 |
+| [daily-watchlist](https://github.com/dake2482/daily-watchlist) | AI 算力 / 半导体链投资每日监控工具 |
+| [monitor-feishu-quant-arxiv](https://github.com/dake2482/monitor-feishu-quant-arxiv) | AI 信号飞书日报 + 美股量化 arXiv 摘要推送 |
+| [futu-a6-six-sword](https://github.com/dake2482/futu-a6-six-sword) | 富途 A6 六剑指标计算器与 Codex Skill |
+| [ai-watchlist-feynman-atlas](https://github.com/dake2482/ai-watchlist-feynman-atlas) | 费曼学习法讲解 AI 产业链与上下游关系的手机友好交互网页 |
+| [quant_test](https://github.com/dake2482/quant_test) | Web3 网格交易策略研究与实现 |
 | [quantops-agentic-research](https://github.com/dake2482/quantops-agentic-research) | 本地优先的 Backtrader 量化研究、验证与模拟平台 |
 | [ai-investing-workspace](https://github.com/dake2482/ai-investing-workspace) | AI 投研工作区：pod2wiki + 每日自选 + 多数据源命令层 |
 | [ai-industry-volatility-monitor](https://github.com/dake2482/ai-industry-volatility-monitor) | AI 产业链 219 家公司波动监控与 9 层可视化 |
